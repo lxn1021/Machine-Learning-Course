@@ -17,10 +17,14 @@ for iter = 1:num_iters
     %       of the cost function (computeCost) and gradient here.
     %
 
+	
+	Derivative1 = sum(X*theta - y);
+	
+	x = X(:, 2);
+	Derivative2 = sum((X*theta-y) .* x);
+	Derivatives = [Derivative1; Derivative2];
 
-
-
-
+	theta = theta - alpha*(1/m)*Derivatives;
 
 
     % ============================================================
