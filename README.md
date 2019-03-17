@@ -1,1 +1,1 @@
-### **This repository contains the assignment of the Coursera online course (https://www.coursera.org/learn/machine-learning?)- Machine Learning by Andrew Ng. All the work is performed in Octave.**
+This repository contains the assignment of the Coursera online course (https://www.coursera.org/learn/machine-learning?)- Machine Learning by Andrew Ng. All the work is performed in Octave. Most part of the assignment codes are provided by the course, and students are only required to fill in some "codling slots".  
